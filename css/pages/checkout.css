@@ -1,0 +1,131 @@
+.review-order-text {
+    font-size: 20px;
+    font-style: bold;
+    margin-top: 40px;
+    padding-left: 200px;
+}
+
+.checkout-grid {
+    margin: 20px 100px 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 500px;
+    column-gap: 20px;
+}
+
+.cart-summary {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.cart-item-box {
+    border: solid;
+    border-color: rgb(229, 233, 235);
+    border-width: 1px;
+    border-radius: 20px;
+
+    padding: 10px 10px 10px 10px;
+}
+
+.item-summary-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    column-gap: 20px;
+}
+
+.delivery-date-text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.cart-item-image {
+    width: 100px;
+}
+
+.heading-cart-item-box {
+    font-size: 18px;
+    font-style: bold;
+    
+}
+
+.important-text {
+    color: rgb(160, 2, 2);
+}
+
+.order-summary {
+    padding: 20px 20px 20px 20px;
+    border: solid;
+    border-color: rgb(229, 233, 235);
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+.order-summary-text {
+    font-size: 20px;
+    font-style: bold;
+}
+
+.summary-row, .order-total-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-total-text {
+    font-size: 20px;
+    font-style: bold;
+    color: rgb(160, 2, 2);
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button-wrapper button {
+    height: 40px;
+    width: 200px;
+
+    background-color: #FFD700;
+
+    border: solid;
+    border-width: 1px;
+    border-color:  #B8860B;
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease;
+}
+
+.order-summary:hover button {
+    transform: scale(1.05);
+}
+
+.order-summary:active button {
+    transform: scale(0.9);
+}
+
+.clear-all-items-wrapper {
+    display: flex;
+    justify-content: front;
+}
+
+.clear-all-items-wrapper button {
+    cursor: pointer;
+    color: white;
+    border-color:#FFD700;
+    background-color:rgb(160, 2, 2);
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    transition: transform 0.2s ease;
+}
+
+.clear-all-items-wrapper:hover button {
+    transform: scale(1.05);
+}
+
+.clear-all-items-wrapper:active button {
+    transform: scale(0.9);
+}

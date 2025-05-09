@@ -1,0 +1,15 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 20px 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(229, 233, 235);
+    margin: 1rem 0;
+}
+
+label {
+    display: block;
+}

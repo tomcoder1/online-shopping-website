@@ -1,0 +1,13 @@
+.ordered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 70px 100px;
+    font-size: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}

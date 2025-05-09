@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checkout section</title>
+        
+        <link rel="stylesheet" href="css/shared/header.css">
+        <link rel="stylesheet" href="css/shared/general.css">
+        <link rel="stylesheet" href="css/pages/checkout.css">
+        <link rel="stylesheet" href="css/pages/popup-order.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="web-header">
+            <div class="left-section-header">
+                <a class="home-button" href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40"  fill="white" viewBox="0 0 24 24">
+                        <path d="M12 2L2 10h3v10h14V10h3L12 2z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="middle-section-header">
+                <p class="checkout-text">
+                    Checkout
+                </p>
+            </div>
+            <div class="right-section-header">
+                <div class="github-button">
+                    <a href="https://github.com/tomcoder1" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="35" fill="white" viewBox="0 0 24 24">
+                            <path d="M12 0.2975C5.37008 0.2975 0 5.66662 0 12.2975C0 17.6284 3.43819 22.0974 8.20703 23.6824C8.80508 23.7905 9.02508 23.4224 9.02508 23.0974C9.02508 22.7974 9.01508 22.0974 9.01008 21.0974C5.67207 21.7974 4.96706 19.4224 4.96706 19.4224C4.42206 18.0474 3.63206 17.6724 3.63206 17.6724C2.54705 16.9224 3.71506 16.9374 3.71506 16.9374C4.92207 17.0274 5.55508 18.1724 5.55508 18.1724C6.62509 20.0474 8.42208 19.5474 9.20509 19.2224C9.31209 18.4224 9.61709 17.8724 9.95709 17.5474C7.24206 17.2224 4.39504 16.1724 4.39504 11.5474C4.39504 10.2474 4.86705 9.19735 5.62506 8.37234C5.50706 8.04734 5.08205 6.79733 5.74206 5.09732C5.74206 5.09732 6.74207 4.74732 9.01008 6.29734C9.99009 6.02733 11.0401 5.89733 12.0901 5.89233C13.1401 5.89733 14.1901 6.02733 15.1701 6.29734C17.4371 4.74732 18.4371 5.09732 18.4371 5.09732C19.0971 6.79733 18.6721 8.04734 18.5551 8.37234C19.3121 9.19735 19.7851 10.2474 19.7851 11.5474C19.7851 16.1824 16.9321 17.2174 14.2121 17.5424C14.6521 17.9224 15.0371 18.6824 15.0371 19.8974C15.0371 21.6474 15.0221 22.9474 15.0221 23.0974C15.0221 23.4224 15.2401 23.7955 15.8471 23.6824C20.617 22.0924 24 17.6284 24 12.2975C24 5.66662 18.6279 0.2975 12 0.2975Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="review-order-text">
+                Review your order
+            </div>
+            <section class="checkout-grid">
+                <div class="cart-summary js-cart-summary">
+                </div>
+                <div class="order-summary">
+                    <div class="order-summary-text">
+                        Order Summary
+                    </div>
+                    <hr>
+                    <div class="summary-row">
+                        <span>Items:</span>
+                        <span class="js-price-items">0 VND</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Shipping:</span>
+                        <span class="js-price-shipping">0 VND</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Total (before tax):</span>
+                        <span class="js-price-total-notax">0 VND</span>
+                    </div>
+
+                    <div class="summary-row">
+                        <span>Estimated tax (10%):</span>
+                        <span class="js-price-tax">0 VND</span>
+                    </div>
+                    
+                    <hr>
+
+                    <div class="order-total-text">
+                        <span>Order total:</span>
+                        <span class="js-price-total">0 VND</span>
+                    </div>
+
+                    <hr>
+                    <div class="js-place-order button-wrapper">
+                        <button>Place your order</button>
+                    </div>
+                    
+                </div>
+            </section>
+            <div class="ordered">
+                Order complete!
+            </div>
+        </main>
+        <script type="module" src="js/checkout.js"></script>
+    </body>
+</html>
